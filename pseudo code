@@ -1,0 +1,74 @@
+
+main() - of course.
+Keep going set equal to true
+	If userChoice is 0
+Keep going set to false 
+Elif userChoice gets 1
+Print load default game
+Elif userChoice gets 2
+Print load game file
+	Elif userChoice 3
+Print save current game
+	Elif userChoice 4 
+Print edit or create a node
+	Elif userChoice 5
+Print play the current gamehile keep going: 
+Print starting dictionary with options
+Create a variable called  decision which gets please choose and then list the 5 options nodes. 
+            
+getMenuChoice()
+0) Exit
+Load default game
+Load a game file
+Save the current game
+Edit or add a node
+Play the current game
+Print What will you do
+userChoice = input
+If userChoice in (0, 1, 2, 3, 4, 5):
+	KeepGoing = false
+Print Choose something 0-5
+	
+playGame(game) 
+game is a parameter we will use to pass in the variables
+Keepgoing gets true as node gets the start “node”
+While keepgoing loop
+	Have node get play game with the parameters of game and node
+If statement for if node gets quit
+	Keepgoing gets false
+	Print an ending statement
+ 
+playNode()
+Print out the current dictionary
+Create a variable called decision. 
+For each decision that corresponds with the menu, have it play the node its aligned to. 
+
+getDefaultGame()
+Lists menu options
+Only has a start and quit node
+Returns game
+
+editNode()
+Print on how the game is currently
+Import your json.game file
+For the node name print out current node name with mostache brackets where that name can go.
+To make a new name for nodes new content is needed.
+Print out menu a and b
+Print out node a and b
+Return the game
+
+getField()
+If a new value is created it needs to over right current value
+Create variable called newVal that is created when the player answers the prompt.
+Have newVal get current val now. 
+Return the newVal
+
+saveGame(game)
+Opens the json file as a dumps. Which takes the new information and saves it in a new file. 
+Print a statement saying file is now saved
+
+loadGame(game)
+Variable fileIn created. This gets the json file 
+Game gets json.file in to spyder
+Now file is in we can close it with fileIn.close
+Return the game
